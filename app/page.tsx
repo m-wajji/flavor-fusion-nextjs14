@@ -1,8 +1,20 @@
+import { Footer } from '@/components/home/Footer'
+import { GenerateRecipe } from '@/components/home/GenerateRecipe'
+import { GeneratedRecipe } from '@/components/home/GeneratedRecipe'
+import { Hero } from '@/components/home/Hero'
+import { Navbar } from '@/components/home/Navbar'
+import { Separator } from '@radix-ui/react-select'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='flex flex-col'>
+      <Navbar />
+      <Hero />
+      <GenerateRecipe />
+      <GeneratedRecipe />
+      <Footer/>
+    </div>
   )
 }
 
