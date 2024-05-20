@@ -12,8 +12,8 @@ export const Footer = () => {
             <Separator/>
             <div className='flex flex-col items-center justify-center'>
                 <div className='flex mt-[100px]'>
-                <div className='font-sans text-[25px] font-medium '>Flavor</div>
-                <div className='font-sans text-[25px] font-medium text-[#C19102]'> Fusion</div>
+                <div className=' text-[25px] font-medium '>Flavor</div>
+                <div className=' text-[25px] font-medium text-[#C19102]'> Fusion</div>
                 </div>
                 <Image src={Logo} alt='' className='mt-7'/>
                <div className='text-[#5F7896] font-medium mt-5'>© Copyright 2024. Flavor Fusion. All rights reserved.</div>
