@@ -29,7 +29,7 @@ export const GenerateRecipe: React.FC = () => {
             </div>
             <div className='flex justify-between items-center mt-36'>
                 <GenerateRecipeText stepNo="Step 4" title="Finally generate!!!" description='Click the button to generate and wait for the magic to happen' />
-                <Button className='w-[250px] rounded-[10px] bg-[#FFC107] hover:bg-yellow-600' variant="outline">Generate Recipe
+                <Button className='w-[250px] rounded-[10px] bg-[#e07300] hover:bg-orange-500' variant="outline">Generate Recipe
                     <IoFastFood className='size-5 ml-[10px]'/>
 
                 </Button>

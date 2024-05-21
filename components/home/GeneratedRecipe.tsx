@@ -11,7 +11,7 @@ export const GeneratedRecipe = () => {
             <div className='flex flex-col  w-[1000px]'>
                 <div className='flex items-center justify-center'>
                     <div className='text-3xl font-bold'>Cheese and Avocado Sandwich</div>
-                    <Button className=' bg-[#FFC107] hover:bg-yellow-600 ml-7'><IoBookmarksSharp /></Button>
+                    <Button className=' bg-[#e07300] hover:bg-orange-500 ml-7'><IoBookmarksSharp /></Button>
                 </div>
                 <div className='ml-[250px]'>
                     <div className='text-xl font-medium mt-16 mb-6'>Ingredients:</div>
