@@ -86,10 +86,10 @@
 
 .home-bannerImage-container {
   position: absolute;
-  top: -100px;
-  right: -170px;
+  top: -350px;
+  right: 0px;
   z-index: -2;
-  max-width: 700px;
+  max-width: 100%;
 }
 .itim-regular {
   font-family: "Itim", cursive;
@@ -99,4 +99,13 @@
 .home-image-section {
   max-width: 600px;
   flex: 1;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: Just hides the scrollbar without affecting the scroll */
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
