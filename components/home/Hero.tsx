@@ -8,12 +8,11 @@ import robot2 from  '../../public/assets/robot2.png'
 import Link from "next/link";
 import { Button } from "../ui/button";
 export const Hero = () => {
-  const link = <Link href={"/auth/login"}>Login</Link>;
-  const button = <Button className="w-[150px] hidden lg:flex rounded-[20px] bg-[#ffffff] hover:bg-orange-500 h-[50px]" variant="outline"><Link href={"/auth/signup"}>Signup</Link></Button>
+  const button = <Button className="w-[150px] hidden lg:flex rounded-[20px] bg-[#ffffff] hover:bg-orange-500 h-[50px]" variant="outline"><Link href={"/dashboard"}>Login / Register</Link></Button>
   return (
     <div className="flex flex-col w-full pl-[100px]  justify-center" >
       <div className="flex flex-col">
-        <Navbar button={button} link={link}/>
+        <Navbar button={button} />
         <div className="home-bannerImage-container ">
           <Image src={banner} alt="" 
           />
