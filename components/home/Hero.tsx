@@ -5,13 +5,18 @@ import { Separator } from "@/components/ui/separator"
 import banner from '../../public/assets/home-banner-background.png'
 import { Navbar } from "../navbar/Navbar";
 import robot2 from  '../../public/assets/robot2.png'
+import Link from "next/link";
+import { Button } from "../ui/button";
 export const Hero = () => {
+  const link = <Link href={"/auth/login"}>Login</Link>;
+  const button = <Button className="w-[150px] hidden lg:flex rounded-[20px] bg-[#ffffff] hover:bg-orange-500 h-[50px]" variant="outline"><Link href={"/auth/signup"}>Signup</Link></Button>
   return (
     <div className="flex flex-col w-full pl-[100px]  justify-center" >
       <div className="flex flex-col">
-        <Navbar />
+        <Navbar button={button} link={link}/>
         <div className="home-bannerImage-container ">
-          <Image src={banner} alt="" />
+          <Image src={banner} alt="" 
+          />
         </div>
        <div  className="flex">
        <div className="flex flex-col">
@@ -23,7 +28,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className="home-image-section mr-6">
+        <div className="home-image-section">
           <Image src={robot2} alt=""/>
         </div>
        </div>
