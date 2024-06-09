@@ -109,3 +109,15 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.custom-continue-button {
+  border: 1px solid black !important; /* Ensure a solid black border */
+  color: black !important;            /* Black text color */
+  background-color: white !important; /* White background for clarity */
+  
+  font-size: 16px !important;         /* Consistent font size */
+  text-align: center !important;      /* Center text alignment */
+  cursor: pointer !important;
+  outline: none !important;         /* Pointer cursor */
+  background-color: #dd7d02 !important
+}
