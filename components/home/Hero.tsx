@@ -7,8 +7,9 @@ import { Navbar } from "../navbar/Navbar";
 import robot2 from  '../../public/assets/robot2.png'
 import Link from "next/link";
 import { Button } from "../ui/button";
+import { SignUpButton } from "@clerk/nextjs";
 export const Hero = () => {
-  const button = <Button className="w-[150px] hidden lg:flex rounded-[20px] bg-[#ffffff] hover:bg-orange-500 h-[50px]" variant="outline"><Link href={"/dashboard"}>Login / Register</Link></Button>
+  const button = <div>  <SignUpButton signInForceRedirectUrl="/"><Button className="w-[150px] hidden lg:flex rounded-[20px] bg-[#ffffff] hover:bg-orange-500 h-[50px]" variant="outline">Login / Register</Button></SignUpButton></div>
   return (
     <div className="flex flex-col w-full pl-[100px]  justify-center" >
       <div className="flex flex-col">

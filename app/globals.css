@@ -121,3 +121,6 @@
   outline: none !important;         /* Pointer cursor */
   background-color: #dd7d02 !important
 }
+html {
+  scroll-behavior: smooth;
+}
