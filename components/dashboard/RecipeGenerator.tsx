@@ -15,7 +15,7 @@ export const RecipeGenerator = () => {
                 <div className='text-sm'>Use AI to generate recipe from scratch</div>
             </div>
             <Button className='bg-white hover:bg-white text-black mt-4 rounded-xl w-28' variant={'outline'}>
-                <Link href='/'>Generate</Link>
+                <Link href='/dashboard/create'>Generate</Link>
             </Button>
         </div>
     </div>

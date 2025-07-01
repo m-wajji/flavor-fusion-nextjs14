@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex h-auto w-screen  items-center justify-center' style={{ background: 'linear-gradient(135deg, #ffc61d, #fff5c5)' }}>
+    <div className='flex h-auto w-screen  items-center justify-center bg-orange-500'>
         <SignUp/>
     </div>
   )

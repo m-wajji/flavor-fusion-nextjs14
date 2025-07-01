@@ -12,7 +12,7 @@ export const Sidebar: React.FC = () => {
   const pathname = usePathname(); // Get the current pathname
 
   return (
-    <div className='mt-[50px] h-[300px] bg-[#ffd946] border border-black rounded-2xl '>
+    <div className='mt-[50px]  h-[300px] bg-[#FF9D03] shadow-lg border rounded-2xl '>
       <div className='gap-y-5 flex flex-col items-center justify-center text-xl p-4 pt-20'>
         {/* Dashboard Link */}
         <div className='flex items-center gap-1 relative'>
